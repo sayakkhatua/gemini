@@ -9,13 +9,25 @@
 
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
-\usepackage[size=custom,width=120,height=72,scale=1.0]{beamerposter}
+\usepackage[size=custom,width=100,height=72,scale=1.0]{beamerposter}
 \usetheme{gemini}
 \usecolortheme{gemini}
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{tikz}
-\usepackage{pgfplots}
+%\usepackage{pgfplots}
+
+
+\usepackage{copyrightbox}
+\makeatletter
+\renewcommand{\CRB@setcopyrightfont}%
+    {\tiny\color{gray}}
+\makeatother
+%\usepackage[font=small,skip=0pt]{caption}
+
+\usepackage{caption}
+\captionsetup{justification   = raggedright,
+              singlelinecheck = false}
 
 % ====================
 % Lengths
@@ -34,20 +46,20 @@
 % Title
 % ====================
 
-\title{Some fancy title: followed by some more text}
+\title{Informal Labour Blues: Effects of COVID-19 and beyond on women belonging to backward castes in India}
 
-\author{Alyssa P. Hacker \inst{1} \and Ben Bitdiddle \inst{2} \and Lem E. Tweakit \inst{2}}
+\author{Malvya Chintakindi\inst{1} \inst{*}}
 
-\institute[shortinst]{\inst{1} Some Institute \samelineand \inst{2} Another Institute}
+\institute[shortinst]{\inst{1} PhD Student \samelineand \inst{*} Advised by: Prof. Lamia Karim}
 
 % ====================
 % Footer (optional)
 % ====================
 
 \footercontent{
-  \href{https://www.example.com}{https://www.example.com} \hfill
-  ABC Conference 2025, New York --- XYZ-1234 \hfill
-  \href{mailto:alyssa.p.hacker@example.com}{alyssa.p.hacker@example.com}}
+  \href{https://https://anthropology.uoregon.edu}{https://anthropology.uoregon.edu} \hfill
+  Department of Anthropology \hfill
+  \href{mailto:malvyac@uoregon.edu}{malvyac@uoregon.edu}}
 % (can be left out to remove footer)
 
 % ====================
@@ -55,7 +67,7 @@
 % ====================
 
 % use this to include logos on the left and/or right side of the header:
-% \logoright{\includegraphics[height=7cm]{logo1.pdf}}
+ \logoright{\includegraphics[height=7cm]{image-4.png}}
 % \logoleft{\includegraphics[height=7cm]{logo2.pdf}}
 
 % ====================
@@ -70,159 +82,113 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{A block title}
+  \begin{block}{Background}
 
-    Some block contents, followed by a diagram, followed by a dummy paragraph.
+COVID-19 struck people all over the world, indiscriminately,
+altering human living conditions. India was the third worst hit
+country in 2020, comprising the largest number of confirmed
+cases in Asia. In 2021, India broke world records with its
+massive second wave registering highest official daily
+infection rates while the unofficial rates are understood to be
+soaring. Preliminary data and evidence from several parts of
+the world indicate that the incidence of the disease is not
+class-neutral and gender-neutral, suggesting that socially
+marginalized groups are at higher risk of mortality due to
+COVID-19. India’s phased lockdown, imposed in the last week
+of March 2020, was among the strictest in the world. With
+little to no income, these socially marginalized sections face
+challenges to their livelihoods, health, familial and socioeconomic
+conditions. The effects of COVID-19 on women
+belonging to backward caste communities in India are a case
+in point to investigate the multifold effects of the pandemic at
+the intersection of gender, class and labour conditions. The
+sister states of Andhra Pradesh (AP) and Telangana (TS) in
+South India face interstate migration and share business and
+information technology partnerships along with several
+natural resources, at Hyderabad city. This has aggravated the
+burden on infrastructural resources, COVID-19 testing centres
+and available hospital beds in Hyderabad, including the
+disastrous effect on migrant and non-migrant informal
+labourers. Hyderabad is also known to be consistently
+spending the nation’s highest on populations that face poor
+socio-economic conditions. To fill gaps in understanding the
+gravity of the crisis and in the absence of nuanced quantitative
+data , anecdotal information is vital to bring to fore the
+condition of informal labourers in urban India. This research is
+positioned to investigate long term effects of shocks such as
+COVID-19 on low income and socio-economically backward
+populations in parts of India and other comparable
+communities.
 
-    \begin{figure}
-      \centering
-      \begin{tikzpicture}[scale=6]
-        \draw[step=0.25cm,color=gray] (-1,-1) grid (1,1);
-        \draw (1,0) -- (0.2,0.2) -- (0,1) -- (-0.2,0.2) -- (-1,0)
-          -- (-0.2,-0.2) -- (0,-1) -- (0.2,-0.2) -- cycle;
-      \end{tikzpicture}
-      \caption{A figure caption.}
-    \end{figure}
+\vspace{2cm}
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies
-    eget libero ac ullamcorper. Integer et euismod ante. Aenean vestibulum
-    lobortis augue, ut lobortis turpis rhoncus sed. Proin feugiat nibh a
-    lacinia dignissim. Proin scelerisque, risus eget tempor fermentum, ex
-    turpis condimentum urna, quis malesuada sapien arcu eu purus.
+\begin{figure}
+\copyrightbox[b]{\includegraphics[scale=1.4]{image1.png}}%
+                {Map not to scale. For illustration purpose only}
+\caption{Map of India with state boundaries only}
+\end{figure}
+  \end{block}
+\end{column}
+
+\separatorcolumn
+
+\begin{column}{\colwidth}
+
+\begin{figure}
+\copyrightbox[b]{\includegraphics[width=\colwidth]{image-2.png}}%
+                  {Illustrator: Niharika}
+      \vspace{-1.2cm}  
+\caption{Lady in Pink: Engaged in multiple forms of care-taking for her family members
+before stepping out for work}
+\end{figure}
+
+  \begin{block}{About}
+
+This research encompasses primary field work from September 2020,
+leading up to March 2021 in two regions of Hyderabad. Rooted in
+grounded theory, the research employs participatory and qualitative
+methods such as in-depth interviews, visual aids and participant
+observation. Informal semi-structured interviews were conducted with
+women from 5 families belonging to backward castes working as
+household help and when possible, open ended interviews were
+conducted with their children. These women are aged mid 20s-late 50s,
+receiving a monthly salary ranging from INR 1000-4000 (\$13.2-\$54) per
+household per month. Their children are pursuing education ranging
+from middle school to under-graduation. Few of these families are
+migrants from AP, whereas TS is the native state of others. Each woman
+on average works in three to four households. Some of the women are
+educated either until middle school or high school. They juggle a
+multitude of responsibilities ranging from their own household chores,
+cooking, taking care of the elderly and stepping out to work in
+households. The findings include direct quotes from participants.
 
   \end{block}
 
-  \begin{block}{A block containing a list}
+  \begin{block}{Findings}
 
-    Nam vulputate nunc felis, non condimentum lacus porta ultrices. Nullam sed
-    sagittis metus. Etiam consectetur gravida urna quis suscipit.
+  The lockdown has caused the participants’ job insecurity, with finances
+and access to healthcare taking a large hit. Since the lockdown, most
+women have been asked to not work as household help by their
+employers owing to the fear of spread of the disease and government
+restrictions on public mobility.
 
-    \begin{itemize}
-      \item \textbf{Mauris tempor} risus nulla, sed ornare
-      \item \textbf{Libero tincidunt} a duis congue vitae
-      \item \textbf{Dui ac pretium} morbi justo neque, ullamcorper
-    \end{itemize}
+\end{block}
 
-    Eget augue porta, bibendum venenatis tortor.
+ \begin{alertblock}{}
 
-  \end{block}
-
-  \begin{alertblock}{A highlighted block}
-
-    This block catches your eye, so \textbf{important stuff} should probably go
-    here.
-
-    Curabitur eu libero vehicula, cursus est fringilla, luctus est. Morbi
-    consectetur mauris quam, at finibus elit auctor ac. Aliquam erat volutpat.
-    Aenean at nisl ut ex ullamcorper eleifend et eu augue. Aenean quis velit
-    tristique odio convallis ultrices a ac odio.
-
-    \begin{itemize}
-      \item \textbf{Fusce dapibus tellus} vel tellus semper finibus. In
-        consequat, nibh sed mattis luctus, augue diam fermentum lectus.
-      \item \textbf{In euismod erat metus} non ex. Vestibulum luctus augue in
-        mi condimentum, at sollicitudin lorem viverra.
-      \item \textbf{Suspendisse vulputate} mauris vel placerat consectetur.
-        Mauris semper, purus ac hendrerit molestie, elit mi dignissim odio, in
-        suscipit felis sapien vel ex.
-    \end{itemize}
-
-    Aenean tincidunt risus eros, at gravida lorem sagittis vel. Vestibulum ante
-    ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.
+‘We have not heard of COVID-19 or
+of its spread from government
+sources but received some money
+and rice grain from our local
+government for a couple of
+months. Ever since we returned to
+the city, we haven’t received
+anything’- 35 yrs
 
   \end{alertblock}
 
-\end{column}
 
-\separatorcolumn
-
-\begin{column}{\colwidth}
-
-  \begin{block}{A block containing an enumerated list}
-
-    Vivamus congue volutpat elit non semper. Praesent molestie nec erat ac
-    interdum. In quis suscipit erat. \textbf{Phasellus mauris felis, molestie
-    ac pharetra quis}, tempus nec ante. Donec finibus ante vel purus mollis
-    fermentum. Sed felis mi, pharetra eget nibh a, feugiat eleifend dolor. Nam
-    mollis condimentum purus quis sodales. Nullam eu felis eu nulla eleifend
-    bibendum nec eu lorem. Vivamus felis velit, volutpat ut facilisis ac,
-    commodo in metus.
-
-    \begin{enumerate}
-      \item \textbf{Morbi mauris purus}, egestas at vehicula et, convallis
-        accumsan orci. Orci varius natoque penatibus et magnis dis parturient
-        montes, nascetur ridiculus mus.
-      \item \textbf{Cras vehicula blandit urna ut maximus}. Aliquam blandit nec
-        massa ac sollicitudin. Curabitur cursus, metus nec imperdiet bibendum,
-        velit lectus faucibus dolor, quis gravida metus mauris gravida turpis.
-      \item \textbf{Vestibulum et massa diam}. Phasellus fermentum augue non
-        nulla accumsan, non rhoncus lectus condimentum.
-    \end{enumerate}
-
-  \end{block}
-
-  \begin{block}{Fusce aliquam magna velit}
-
-    Et rutrum ex euismod vel. Pellentesque ultricies, velit in fermentum
-    vestibulum, lectus nisi pretium nibh, sit amet aliquam lectus augue vel
-    velit. Suspendisse rhoncus massa porttitor augue feugiat molestie. Sed
-    molestie ut orci nec malesuada. Sed ultricies feugiat est fringilla
-    posuere.
-
-    \begin{figure}
-      \centering
-      \begin{tikzpicture}
-        \begin{axis}[
-            scale only axis,
-            no markers,
-            domain=0:2*pi,
-            samples=100,
-            axis lines=center,
-            axis line style={-},
-            ticks=none]
-          \addplot[red] {sin(deg(x))};
-          \addplot[blue] {cos(deg(x))};
-        \end{axis}
-      \end{tikzpicture}
-      \caption{Another figure caption.}
-    \end{figure}
-
-  \end{block}
-
-  \begin{block}{Nam cursus consequat egestas}
-
-    Nulla eget sem quam. Ut aliquam volutpat nisi vestibulum convallis. Nunc a
-    lectus et eros facilisis hendrerit eu non urna. Interdum et malesuada fames
-    ac ante \textit{ipsum primis} in faucibus. Etiam sit amet velit eget sem
-    euismod tristique. Praesent enim erat, porta vel mattis sed, pharetra sed
-    ipsum. Morbi commodo condimentum massa, \textit{tempus venenatis} massa
-    hendrerit quis. Maecenas sed porta est. Praesent mollis interdum lectus,
-    sit amet sollicitudin risus tincidunt non.
-
-    Etiam sit amet tempus lorem, aliquet condimentum velit. Donec et nibh
-    consequat, sagittis ex eget, dictum orci. Etiam quis semper ante. Ut eu
-    mauris purus. Proin nec consectetur ligula. Mauris pretium molestie
-    ullamcorper. Integer nisi neque, aliquet et odio non, sagittis porta justo.
-
-    \begin{itemize}
-      \item \textbf{Sed consequat} id ante vel efficitur. Praesent congue massa
-        sed est scelerisque, elementum mollis augue iaculis.
-        \begin{itemize}
-          \item In sed est finibus, vulputate
-            nunc gravida, pulvinar lorem. In maximus nunc dolor, sed auctor eros
-            porttitor quis.
-          \item Fusce ornare dignissim nisi. Nam sit amet risus vel lacus
-            tempor tincidunt eu a arcu.
-          \item Donec rhoncus vestibulum erat, quis aliquam leo
-            gravida egestas.
-        \end{itemize}
-      \item \textbf{Sed luctus, elit sit amet} dictum maximus, diam dolor
-        faucibus purus, sed lobortis justo erat id turpis.
-      \item \textbf{Pellentesque facilisis dolor in leo} bibendum congue.
-        Maecenas congue finibus justo, vitae eleifend urna facilisis at.
-    \end{itemize}
-
-  \end{block}
+%\end{block}
 
 \end{column}
 
@@ -230,70 +196,124 @@
 
 \begin{column}{\colwidth}
 
-  \begin{block}{A block containing some math}
+Husbands of these women
+primarily work either as
+watchmen or as daily wage
+labourers. With their husbands
+losing their low paying jobs,
+the onus of supporting their
+households has fallen on women.
+\vspace{0.5cm}
 
-    Nullam non est elit. In eu ornare justo. Maecenas porttitor sodales lacus,
-    ut cursus augue sodales ac.
+The efforts of the government
+and civil societies in supporting
+informal labourers has been
+met with varied outcomes.
+Government information
+campaigns have not reached
+most locations and migrant
+families had to travel long
+distances by foot to their
+hometowns.
 
-    $$
-    \int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}
-    $$
 
-    Interdum et malesuada fames $\{1, 4, 9, \ldots\}$ ac ante ipsum primis in
-    faucibus. Cras eleifend dolor eu nulla suscipit suscipit. Sed lobortis non
-    felis id vulputate.
+  \begin{alertblock}{}
 
-    \heading{A heading inside a block}
+‘We have not heard of COVID-19 or
+of its spread from government
+sources but received some money
+and rice grain from our local
+government for a couple of
+months. Ever since we returned to
+the city, we haven’t received
+anything’- 35 yrs
 
-    Praesent consectetur mi $x^2 + y^2$ metus, nec vestibulum justo viverra
-    nec. Proin eget nulla pretium, egestas magna aliquam, mollis neque. Vivamus
-    dictum $\mathbf{u}^\intercal\mathbf{v}$ sagittis odio, vel porta erat
-    congue sed. Maecenas ut dolor quis arcu auctor porttitor.
+  \end{alertblock}
 
-    \heading{Another heading inside a block}
+  These participants’ informal
+jobs are now their salvation,
+providing a safety net for their
+families. They have been highly
+stressed for their children’s
+education and future. The lack
+of technology, internet and
+smart mobile phones has been
+a huge barrier for their children
+to attend online classes.
 
-    Sed augue erat, scelerisque a purus ultricies, placerat porttitor neque.
-    Donec $P(y \mid x)$ fermentum consectetur $\nabla_x P(y \mid x)$ sapien
-    sagittis egestas. Duis eget leo euismod nunc viverra imperdiet nec id
-    justo.
+  \begin{alertblock}{}
 
-  \end{block}
+‘My eldest girl is going to get
+married in December 2020. I
+have taken several loans required
+for dowry and other wedding
+expenses. I don’t know how to
+repay and recuperate since my
+husband is unemployed. It is all
+on me’ - 45 yrs
 
-  \begin{block}{Nullam vel erat at velit convallis laoreet}
+  \end{alertblock}
 
-    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-    inceptos himenaeos. Phasellus libero enim, gravida sed erat sit amet,
-    scelerisque congue diam. Fusce dapibus dui ut augue pulvinar iaculis.
+  While a couple of participants
+reported that lack of income and
+loss of jobs meant less alcohol
+consumption and less domestic
+violence, others mentioned that
+nation-wide lockdown induced
+irritation and mental stress led to
+their husbands’ higher alcohol
+consumption and desperate
+alcohol purchase with savings. All
+participants felt the need for
+social protection and welfare
+assurance measures since there
+is no uniform agency that
+addresses the grievances of
+informal labour. The participants
+and their networks feel a sense of
+abandonment and isolation. They
+stated to have been incapable in
+developing functional coping
+mechanisms in their day-to-day
+stressful situations. There
+is moderate trust on vaccines but
+due to the wide shortage of
+essential supplies and
+medication, they feel dejected
+and uncertain about access.
 
-    \begin{table}
-      \centering
-      \begin{tabular}{l r r c}
-        \toprule
-        \textbf{First column} & \textbf{Second column} & \textbf{Third column} & \textbf{Fourth} \\
-        \midrule
-        Foo & 13.37 & 384,394 & $\alpha$ \\
-        Bar & 2.17 & 1,392 & $\beta$ \\
-        Baz & 3.14 & 83,742 & $\delta$ \\
-        Qux & 7.59 & 974 & $\gamma$ \\
-        \bottomrule
-      \end{tabular}
-      \caption{A table caption.}
-    \end{table}
+  \begin{alertblock}{}
 
-    Donec quis posuere ligula. Nunc feugiat elit a mi malesuada consequat. Sed
-    imperdiet augue ac nibh aliquet tristique. Aenean eu tortor vulputate,
-    eleifend lorem in, dictum urna. Proin auctor ante in augue tincidunt
-    tempor. Proin pellentesque vulputate odio, ac gravida nulla posuere
-    efficitur. Aenean at velit vel dolor blandit molestie. Mauris laoreet
-    commodo quam, non luctus nibh ullamcorper in. Class aptent taciti sociosqu
-    ad litora torquent per conubia nostra, per inceptos himenaeos.
+‘We cannot kill ourselves by
+staying stuck at home without
+income. I do not care about my
+health and safety anymore. I
+need to work so I can put food
+on our plates. Whatever will
+happen, will happen’ - 36 yrs
+  \end{alertblock}
+ 
 
-    Nulla varius finibus volutpat. Mauris molestie lorem tincidunt, iaculis
-    libero at, gravida ante. Phasellus at felis eu neque suscipit suscipit.
-    Integer ullamcorper, dui nec pretium ornare, urna dolor consequat libero,
-    in feugiat elit lorem euismod lacus. Pellentesque sit amet dolor mollis,
-    auctor urna non, tempus sem.
+  \begin{block}{Next Steps}
 
+The research will incorporate a
+larger sample and further
+explore questions surrounding
+gendered effects of the
+pandemic on informal labour
+and unravel multiplicities of
+vulnerabilities. The research will
+turn to marginalized
+communities in other parts of
+India to deeply understand their
+conditions owing to the
+pandemic and the overall
+impact on their status. There
+will be an emphasised focus on
+women empowerment, gender
+equality, development
+aspirations and health
+outcomes.
   \end{block}
 
   \begin{block}{References}
@@ -304,8 +324,8 @@
   \end{block}
 
 \end{column}
-
 \separatorcolumn
+
 \end{columns}
 \end{frame}
 
